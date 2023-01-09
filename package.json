@@ -1,0 +1,33 @@
+{
+  "name": "k",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt -p 7000",
+    "build": "nuxt build",
+    "start": "nuxt start -p 7070",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/auth-next": "5.0.0-1667386184.dfbbb54",
+    "@nuxtjs/axios": "^5.13.6",
+    "@pdftron/webviewer": "^8.10.0",
+    "@popperjs/core": "^2.11.6",
+    "body-parser": "^1.20.1",
+    "bootstrap": "^5.2.3",
+    "cookie-parser": "^1.4.6",
+    "cookie-universal-nuxt": "^2.2.2",
+    "core-js": "^3.25.3",
+    "express": "^4.18.2",
+    "express-jwt": "^7.7.7",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.9.0",
+    "mongoose": "^6.3.8",
+    "nuxt": "^2.15.8",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-simple-alert": "^1.1.1",
+    "vue-template-compiler": "^2.7.10"
+  }
+}
