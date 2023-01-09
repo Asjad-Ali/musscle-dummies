@@ -50,9 +50,18 @@
                                 <img src="https://www.clipartmax.com/png/middle/97-978328_avatar-icon-free-fa-user-circle-o.png" width="25px" height="25px"/>
                         </nuxt-link> 
                       </div>
-                    </li>  
+                    </li>
+  
                 </ul>
                 </div> 
+                <div class="d-flex flex-row">
+                  <div class="nav-item h5 me-2">
+                    <nuxt-link to="/login"><button class="btn btn-primary btn-md">Login</button></nuxt-link>
+                  </div>    
+                  <div class="nav-item h5">
+                    <nuxt-link to="/signup"><button class="btn btn-primary btn-md">Signup</button></nuxt-link>
+                  </div>  
+              </div>
             </div>
       </nav> 
     </div>
